@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 
-
 {% block contents %}
 <div class= "row mt-5">
     <div class = "col-12 text-center">
-        <h1><b>회원가입</b></h1>
+        <h1><b>로그인</b></h1>
     </div>
 </div>
 <div class= "row">
@@ -24,23 +23,12 @@
             </div>
 
             <div class="form-group">
-                <label for="useremail">사용자 이메일</label>
-                <input type="email" class="form-control" id="useremail" placeholder="사용자 이메일" name='useremail'>
-                </div>
-
-            <div class="form-group">
                 <label for="password">비밀번호</label>
                 <input type="password" class="form-control" id="password" placeholder="비밀번호" name='password'>
             </div>
 
-            <div class="form-group">
-                <label for="re-password">비밀번호 확인</label>
-                <input type="password" class="form-control" id="re-password" placeholder="비밀번호 확인" name='re-password'>
-            </div>
-
-            <button type="submit" class="btn btn-primary">등록</button>
+            <button type="submit" class="btn btn-primary">로그인</button>
             </form>               
     </div>
 </div>
-
 {% endblock %}
